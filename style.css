@@ -56,6 +56,7 @@ main {
     border-radius: 1.0rem;
     filter: grayscale(.5);
     transition: all ease-in-out 200ms;
+    filter: blur(.6px);
     
 }
 
@@ -106,14 +107,8 @@ h3 {
     background-repeat: no-repeat;
     background-position: 35rem 0rem;
     grid-column: 1/3;
-    filter: grayscale(.5);
-    transition: all ease-in-out 200ms;
 }
 
-.daniel:hover {
-    filter: grayscale(0);
-    transform: scale(1.02);
-}
 
 .jonathan {
     background-color: var(--pry-Very-dark-grayish-blue);
@@ -183,6 +178,11 @@ h3 {
 
     .daniel {
         background-position: 16rem 0rem;
+    }
+
+    .block {
+        filter: grayscale(0);
+        filter: blur(0px);
     }
 }
 
