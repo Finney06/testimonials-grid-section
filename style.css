@@ -176,13 +176,15 @@ h3 {
        flex-direction: column;
     }
 
-    .daniel {
-        background-position: 16rem 0rem;
-    }
-
     .block {
         filter: grayscale(0);
         filter: blur(0px);
     }
+
+    .daniel {
+        background-position: 16rem 0rem;
+    }
+
+
 }
 
